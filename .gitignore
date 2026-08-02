@@ -1,66 +1,28 @@
-```markdown
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
+# Examples 1:
+(empty — output nothing)
+
+# Example 2 (Project with artifacts):
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
+build/
+# Dependencies
+.venv/
 venv/
-ENV/
-.env
-.venv
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
+node_modules/
+# Logs and temp files
 *.log
-
-# Coverage reports
-.coverage
-htmlcov/
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-
-# Environment variables
+*.tmp
+*.swp
+# Environment
 .env
 .env.local
 .env.*
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-```
+# Editors
+.vscode/
+.idea/
+# Original rules preserved
+*.log
